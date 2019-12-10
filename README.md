@@ -18,4 +18,4 @@ $ npm run dev
 
 ### MongoDB
 
-Ouvrez "config/keys.js" et ajouter votre URI MONGODB (adresse SRV), local ou Atlas
+Ouvrez "config/keys.js" et ajouter votre URI MONGODB (adresse SRV), local ou Atlas et remplacer l'expression par défaut
