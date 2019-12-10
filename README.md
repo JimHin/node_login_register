@@ -1,3 +1,4 @@
+
 # Nodejs Passport login-register
 
 Application d'enregistrement et de connexion
@@ -19,3 +20,5 @@ $ npm run dev
 ### MongoDB
 
 Ouvrez "config/keys.js" et ajouter votre URI MONGODB (adresse SRV), local ou Atlas et remplacer l'expression par défaut
+
+Cette application s'inspire de https://github.com/bradtraversy/node_passport_login
