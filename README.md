@@ -9,7 +9,7 @@ Application d'enregistrement et de connexion
 
 $ npm install
 
-# Démarrer en mode production with Node
+# Démarrer en mode production avec Node
 $ npm start
 # Ou en mode développement avec Nodemon
 $ npm run dev
