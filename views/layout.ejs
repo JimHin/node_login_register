@@ -9,12 +9,36 @@
       rel="stylesheet"
       href="https://bootswatch.com/4/cosmo/bootstrap.min.css"
     />
-    <title>Node passport login-register</title>
+      <style>
+        html, body {
+            overflow: hidden;
+            width   : 100%;
+            height  : 100%;
+            margin  : 0;
+            padding : 0;
+        }
+
+        #renderCanvas {
+            width   : 100%;
+            height  : 100%;
+            touch-action: none;
+        }
+    </style>
+    <title>Paradis</title>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://preview.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+    <script src="https://preview.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
+    <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+    <script src="https://preview.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+    <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
+    <script src="https://preview.babylonjs.com/nodeEditor/babylon.nodeEditor.js"></script>
   </head>
   <body>
-    <div class="container">
+    
       <%- body %>
-    </div>
+    
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -33,3 +57,4 @@
     ></script>
   </body>
 </html>
+
